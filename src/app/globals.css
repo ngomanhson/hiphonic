@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2563eb;
+    --primary-color-900: #1e3a8a;
+    --primary-color-800: #1e40af;
+    --primary-color-700: #1d4ed8;
+    --primary-color-500: #3b82f6;
+    --primary-color-400: #60a5fa;
+    --primary-color-300: #93c5fd;
+    --primary-color-200: #bfdbfe;
+    --primary-color-100: #dbeafe;
+    --primary-color-50: #eff6ff;
+    --secondary-color: #ed4f9d;
+    --secondary-color-400: #f472b6;
+    --secondary-color-300: #f9a8d4;
+    --secondary-color-200: #fbcfe8;
+    --secondary-color-100: #fce7f3;
+    --secondary-color-50: #fdf2f8;
+    --grey-scale-900: #0f172a;
+    --grey-scale-800: #1e293b;
+    --grey-scale-700: #334155;
+    --grey-scale-600: #475569;
+    --grey-scale-500: #64748b;
+    --grey-scale-400: #94a3b8;
+    --grey-scale-300: #cbd5e1;
+    --grey-scale-200: #e2e8f0;
+    --grey-scale-100: #f1f5f9;
+    --grey-scale-50: #f8fafc;
+    --white: #ffffff;
+    --indigo: #6366f1;
+    --sky: #38bdf8;
+    --purple: #8b5cf6;
+    --emerald: #34d399;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrap-layout {
+    display: flex;
+    gap: 24px;
+    min-height: 100vh;
+}
+
+/* Navbar */
