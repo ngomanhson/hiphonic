@@ -1,0 +1,9 @@
+.sidebar {
+    width: 70px;
+    background: var(--white);
+    border: 1px solid var(--grey-scale-100);
+}
+
+.sidebar.active {
+    width: 250px;
+}
