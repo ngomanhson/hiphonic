@@ -15,7 +15,7 @@ const HeaderActions = () => {
             <div className={styles["action-wrapper"]} onClick={() => setShowMenu(!showMenu)}>
                 <Image src={User3} alt="Logo" width={48} height={48} />
 
-                <div style={{ transition: "all 0.3s ease", rotate: `${showMenu ? "180" : "0"}deg` }}>
+                <div className={`${styles["wrap-menu"]} ${showMenu ? styles["header-actions__show"] : ""}`}>
                     <ChevronDownIcon />
                 </div>
             </div>

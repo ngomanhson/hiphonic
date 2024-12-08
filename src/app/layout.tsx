@@ -20,7 +20,7 @@ export default function RootLayout({
 
                 <div className="wrap-layout">
                     <Sidebar />
-                    <div>{children}</div>
+                    <div className="content">{children}</div>
                 </div>
             </body>
         </html>

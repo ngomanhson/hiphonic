@@ -9,14 +9,14 @@ import HeaderActions from "./HeaderActions";
 
 const Header = () => {
     return (
-        <header className={styles["header"]} style={{ display: "flex", alignItems: "center" }}>
+        <header className={styles["header"]}>
             <Link href="/" className={styles["logo"]}>
                 <Image src={Logo} alt="Logo" priority />
             </Link>
 
             <div className={styles["header-inner"]}>
                 <h3 className={styles["title"]}>Inbox</h3>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 20 }}>
+                <div className={styles["wrap-menu"]}>
                     <Button icon={<PlusIcon />} iconPosition="left">
                         New Message
                     </Button>

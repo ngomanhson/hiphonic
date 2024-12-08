@@ -1,3 +1,8 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     display: block;
     width: 249px;
@@ -22,8 +27,28 @@
     }
 }
 
+.wrap-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 .header-actions {
     position: relative;
+}
+
+.wrap-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: all 0.3s ease;
+    rotate: 0deg;
+}
+
+.header-actions__show {
+    transform: rotate(180deg);
 }
 
 .action-wrapper {
