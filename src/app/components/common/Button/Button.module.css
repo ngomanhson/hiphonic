@@ -31,6 +31,11 @@
     color: var(--white);
 }
 
+.secondary {
+    background-color: var(--white);
+    color: var(--grey-scale-900);
+}
+
 .outline {
     background-color: var(--white);
     color: var(--grey-scale-900);
@@ -50,6 +55,13 @@
 .sm {
     height: 32px;
     font-size: 12px;
+}
+
+.icon-child {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: var(--grey-scale-500);
 }
 
 .animate-spin {

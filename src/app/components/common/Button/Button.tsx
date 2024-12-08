@@ -6,8 +6,8 @@ import styles from "./Button.module.css";
 interface ButtonProps {
     type?: "button" | "submit" | "reset";
     onClick?: () => void;
-    variant?: "primary" | "outline";
-    size?: "lg" | "md" | "sm";
+    variant?: "primary" | "secondary" | "outline";
+    size?: "lg" | "md" | "sm" | "icon-child";
     icon?: React.ReactNode;
     iconPosition?: "left" | "right";
     disabled?: boolean;
@@ -15,7 +15,7 @@ interface ButtonProps {
     isLoading?: boolean;
 }
 
-const Button = ({ type = "button", onClick, children, variant = "primary", size = "md", icon, iconPosition = "left", disabled, isLoading }: ButtonProps) => {
+const Button = ({ type = "button", onClick, children, variant = "primary", size = "md", icon, iconPosition, disabled, isLoading }: ButtonProps) => {
     const variantClass = styles[variant];
     const sizeClass = styles[size];
     return (

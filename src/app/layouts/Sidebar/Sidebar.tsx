@@ -44,7 +44,7 @@ const Sidebar = () => {
     return (
         <div className={`${styles.sidebar} ${styles.active}`}>
             <div style={{ margin: 24 }}>
-                <Button type="button" variant="primary" icon={<PlusIcon />}>
+                <Button type="button" variant="primary" icon={<PlusIcon />} iconPosition="left">
                     New Message
                 </Button>
             </div>
