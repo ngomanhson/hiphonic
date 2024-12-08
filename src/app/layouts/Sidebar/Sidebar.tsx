@@ -1,9 +1,10 @@
 "use client";
 
-import Menu, { MenuItem } from "@/app/components/layouts/Sidebar/Menu";
+import Menu, { MenuItem } from "@/app/layouts/Sidebar/Menu";
 import styles from "./Sidebar.module.css";
 import { Button } from "@/app/components/common";
 import { PlusIcon, InboxIcon, SentIcon, StarIcon, FileTextIcon, AlertCircleIcon, TrashIcon } from "@/app/assets/icons";
+import DirectMessage from "@/app/components/DirectMessage/DirectMessage";
 
 const Sidebar = () => {
     const menuData = [
@@ -53,6 +54,8 @@ const Sidebar = () => {
                     <MenuItem key={index} {...item} />
                 ))}
             </Menu>
+
+            <DirectMessage />
         </div>
     );
 };

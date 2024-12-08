@@ -4,7 +4,7 @@ import React from "react";
 import styles from "./Button.module.css";
 
 interface ButtonProps {
-    type: "button" | "submit" | "reset";
+    type?: "button" | "submit" | "reset";
     onClick?: () => void;
     variant?: "primary" | "outline";
     size?: "lg" | "md" | "sm";
@@ -15,7 +15,7 @@ interface ButtonProps {
     isLoading?: boolean;
 }
 
-const Button = ({ type, onClick, children, variant = "primary", size = "md", icon, iconPosition = "left", disabled, isLoading }: ButtonProps) => {
+const Button = ({ type = "button", onClick, children, variant = "primary", size = "md", icon, iconPosition = "left", disabled, isLoading }: ButtonProps) => {
     const variantClass = styles[variant];
     const sizeClass = styles[size];
     return (

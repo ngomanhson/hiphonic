@@ -70,7 +70,4 @@ body {
 .wrap-layout {
     display: flex;
     gap: 24px;
-    min-height: 100vh;
 }
-
-/* Navbar */

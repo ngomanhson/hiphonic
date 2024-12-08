@@ -6,7 +6,7 @@ interface MenuProps {
 }
 
 const Menu = ({ children }: MenuProps) => {
-    return <ul className={styles.menu}>{children}</ul>;
+    return <ul className={styles["menu"]}>{children}</ul>;
 };
 
 export default Menu;
